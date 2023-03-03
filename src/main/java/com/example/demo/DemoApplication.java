@@ -24,7 +24,7 @@ public class DemoApplication {
   public CommandLineRunner demo(CustomerRepository repository) {
     return (args) -> {
       // save a few customers
-      repository.save(new Customer("IW counsult"));
+      repository.save(new Customer("Jack straw2"));
 
 
       // fetch all customers
